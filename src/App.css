@@ -1,0 +1,25 @@
+table {
+  border: 1px solid;
+  border-collapse: collapse;
+  width: 100%;
+  }
+  .App {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  input {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: none;
+  }
+  th, td {
+  text-align: left;
+  padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #ffd7ed;}
